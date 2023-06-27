@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="age"/>
+<node id="portembarked"/>
+<node id="fare"/>
+<node id="numparentschildren"/>
+<node id="passengerclass"/>
+<node id="sex"/>
+<node id="numsiblings"/>
+<node id="survived"/>
+<edge source="age" target="survived"/>
+<edge source="portembarked" target="survived"/>
+<edge source="fare" target="survived"/>
+<edge source="numparentschildren" target="survived"/>
+<edge source="passengerclass" target="survived"/>
+<edge source="sex" target="survived"/>
+<edge source="numsiblings" target="survived"/>
+</graph></graphml>

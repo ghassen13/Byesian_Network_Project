@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><graph edgedefault="directed"><node id="fixedacidity"/>
+<node id="volatileacidity"/>
+<node id="citricacid"/>
+<node id="residualsugar"/>
+<node id="chlorides"/>
+<node id="freesulfurdioxide"/>
+<node id="totalsulfurdioxide"/>
+<node id="density"/>
+<node id="ph"/>
+<node id="sulphates"/>
+<node id="alcohol"/>
+<node id="quality"/>
+<edge source="fixedacidity" target="quality"/>
+<edge source="volatileacidity" target="quality"/>
+<edge source="citricacid" target="ph"/>
+<edge source="residualsugar" target="alcohol"/>
+<edge source="chlorides" target="density"/>
+<edge source="freesulfurdioxide" target="quality"/>
+<edge source="totalsulfurdioxide" target="quality"/>
+<edge source="density" target="quality"/>
+<edge source="ph" target="quality"/>
+<edge source="sulphates" target="quality"/>
+<edge source="alcohol" target="quality"/>
+</graph></graphml>
